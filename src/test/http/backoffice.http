@@ -1,0 +1,11 @@
+### 문의 생성
+POST localhost:8083/common/backoffice/qna
+Content-Type: application/json
+Member-Code:eyJubyI6MSwibmFtZSI6Im5hbWUiLCJhY2NvdW50IjoiYWNjb3VudCJ9
+Service-Code:eyJubyI6MSwidGl0bGUiOiJ0aXRsZSJ9
+
+{
+"title": "title",
+"body" : "body",
+  "tags": [1,2,3]
+}
