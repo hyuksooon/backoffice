@@ -1,4 +1,4 @@
-package com.soon.backoffice.application.model
+package com.soon.backoffice.application.qna.model
 
 data class QnaCreateCommand (
         val memberNo:Int,

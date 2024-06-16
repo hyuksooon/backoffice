@@ -1,6 +1,6 @@
 package com.soon.backoffice.domain.qna
 
-import com.soon.backoffice.application.model.QnaCreateCommand
+import com.soon.backoffice.application.qna.model.QnaCreateCommand
 import jakarta.persistence.*
 import java.time.LocalDateTime
 

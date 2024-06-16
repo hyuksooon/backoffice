@@ -1,4 +1,4 @@
-package com.soon.member.presentation.extension
+package com.soon.backoffice.presentation.extension
 
 import com.fasterxml.jackson.annotation.JsonProperty
 

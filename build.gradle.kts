@@ -6,6 +6,7 @@ plugins {
     kotlin("jvm") version "1.9.24"
     kotlin("plugin.spring") version "1.9.24"
     kotlin("plugin.jpa") version "1.9.24"
+    id("com.epages.restdocs-api-spec") version "0.17.1"
 }
 
 group = "com.soon"
@@ -31,7 +32,14 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("io.projectreactor:reactor-test")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    testImplementation("com.epages:restdocs-api-spec:0.17.1")
+    testImplementation("io.mockk:mockk:1.13.8")
+    testImplementation ("org.springframework.restdocs:spring-restdocs-webtestclient:3.0.0")
+    testImplementation("com.ninja-squad:springmockk:4.0.2")
+    testImplementation("com.epages:restdocs-api-spec-openapi3-generator:0.17.1")
 }
+
+
 
 tasks.withType<KotlinCompile> {
     kotlinOptions {

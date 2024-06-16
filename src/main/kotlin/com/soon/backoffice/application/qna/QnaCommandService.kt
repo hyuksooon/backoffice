@@ -1,6 +1,6 @@
 package com.soon.backoffice.application.qna
 
-import com.soon.backoffice.application.model.QnaCreateCommand
+import com.soon.backoffice.application.qna.model.QnaCreateCommand
 import com.soon.backoffice.application.util.executeWithContext
 import com.soon.backoffice.domain.qna.Qna
 import com.soon.backoffice.domain.qna.QnaRepository

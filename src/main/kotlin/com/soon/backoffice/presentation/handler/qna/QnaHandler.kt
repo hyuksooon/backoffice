@@ -1,10 +1,10 @@
-package com.soon.backoffice.presentation.handler
+package com.soon.backoffice.presentation.handler.qna
 
 import com.soon.backoffice.application.qna.QnaCommandService
 import com.soon.backoffice.application.util.coroutines.ApplicationDispatchers
-import com.soon.backoffice.presentation.handler.model.QnaCreateRequest
-import com.soon.member.presentation.extension.extractMemberCodeHeader
-import com.soon.member.presentation.extension.extractServiceCodeHeader
+import com.soon.backoffice.presentation.handler.qna.model.QnaCreateRequest
+import com.soon.backoffice.presentation.extension.extractMemberCodeHeader
+import com.soon.backoffice.presentation.extension.extractServiceCodeHeader
 import kotlinx.coroutines.withContext
 import org.springframework.stereotype.Service
 import org.springframework.web.reactive.function.server.*
